@@ -1,4 +1,4 @@
-package io.creh.productsserive.model;
+package io.creh.productsservice.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -23,6 +23,6 @@ public class Category {
     @NonNull
     private String categoryName;
 
-    @OneToMany(mappedBy = "marca")
+    @OneToMany(mappedBy = "category")
     private List<Product> productList;
 }

@@ -1,7 +1,7 @@
 package io.creh.productsservice.service;
 
 
-import io.creh.productsserive.model.Product;
+import io.creh.productsservice.model.Product;
 import io.creh.productsservice.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

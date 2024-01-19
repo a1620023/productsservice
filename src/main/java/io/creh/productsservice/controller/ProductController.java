@@ -1,6 +1,6 @@
-package io.creh.productsserive.controller;
+package io.creh.productsservice.controller;
 
-import io.creh.productsserive.model.Product;
+import io.creh.productsservice.model.Product;
 import io.creh.productsservice.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

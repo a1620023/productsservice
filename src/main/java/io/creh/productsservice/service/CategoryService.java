@@ -1,6 +1,6 @@
 package io.creh.productsservice.service;
 
-import io.creh.productsserive.model.Category;
+import io.creh.productsservice.model.Category;
 import io.creh.productsservice.repository.CategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

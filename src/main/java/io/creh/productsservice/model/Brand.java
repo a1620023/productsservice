@@ -1,4 +1,4 @@
-package io.creh.productsserive.model;
+package io.creh.productsservice.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
